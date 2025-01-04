@@ -1,0 +1,17 @@
+# Ignore all hidden files
+.*
+
+# But allow .gitignore itself
+!.gitignore
+
+# Ignore environment files
+.env
+
+# Ignore system-specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore specific directories
+node_modules/
